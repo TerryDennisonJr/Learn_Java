@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.Index">
+
+    <Button
+        android:id="@+id/ForWhileBtn"
+        android:layout_width="381dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:onClick="forWhileBtn"
+        android:text="For and While loops"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <Button
+        android:id="@+id/DataTypesBtn"
+        android:layout_width="381dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:onClick="dataTypesBtn"
+        android:text="Primitive Data Types"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <Button
+        android:id="@+id/SyntaxBtn"
+        android:layout_width="381dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:onClick="SyntaxBtn"
+        android:text="SemiColons and Syntax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/java_4_logo" />
+
+    <Button
+        android:id="@+id/helloWorldBtn"
+        android:layout_width="381dp"
+        android:layout_height="46dp"
+        android:onClick="helloWordBtnClick"
+        android:text="Hello World Program"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <Button
+        android:id="@+id/IfElseBtn"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:onClick="ifElseBtn"
+        android:text="If/Else Statements"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <Button
+        android:id="@+id/ArrayBtn"
+        android:layout_width="381dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:onClick="arrayBtn"
+        android:text="Arrays"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

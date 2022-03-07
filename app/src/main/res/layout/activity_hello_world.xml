@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.HelloWorldAct">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello World"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_first2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="viewHelloWorld"
+        android:text="View Code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="564dp"
+        android:text="This program is a staple of computer science worldwide. Designed to help you understand the utmost basics of syntax.\n Syntax refers to the rules and \'Grammar'of your code.\n\n There are some basic terms, that you must know before you code this program.\n\n JVM (Java Virtual Machine):\n\n Arguments: The data required for a function or method to be called\n\n Function: A Reusable piece of code called with 0 or more arguments.\n\n Now for the program, The first line goes as follows.\n\n public static void main(String[] args) {\n\n 1: Public (Refers to the visabilty of your code. Public classes can be called outside of the current class)\n 2: Static (Tells the JVM that it has no existing object for the class being called.)\n 3: Void (Refers to the return type of your method, see Primitive Data Types.)\n 4: Main (The name of the application, and the JVM sees main as the entry point.)\n 5: String[] args (The arguments of type string array, that your code takes upon runtime.)\n 6: { (Opening curly brace: Curly braces are used to section off your code. These are used in statements and methods.)\n\nYou can access the code shown here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

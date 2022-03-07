@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Learn Java</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="pid">PID</string>
+    <string name="section3">Arrays are the most basic data structure you can find in Java.\nWhile they lack the flexibility of Vectors found in other languages such as C++, they still serve their function.\nArrays are a basic container of data, where you can change the data after is made.\nIt has to be only one data type, as you cannot put strings in an array of doubles for example.\nThis code below, shows an array for a used car lot.\nSomeone wants to access the 2018 Tesla Model 3, but gets the Delorean instead.\nThat is because, Arrays start at the index number of zero. Array elements are accessed by their index number, such as CarsOnTheLot[2].</string>
+    <string name="section2">If Statements are used to implement user defined logic in your code. These statements are called conditionals.\nIf statements are be used to be as a check.\nThis program for example, checks if your are over 21 years old, and greets you based on your gender.\nHowever, this will not result in any output, as the age is below the requirement of 21.\nYou will come to find many uses for if statements as a programmer, so it is good to study up on them down below.</string>
+    <string name="Section4">Semicolons will be the bane of your programming career. A semicolon, is used to end a line containing logic or initialization. You DO NOT put them on your Loops.\nSyntax is the rules of how you write your code.\nFor Example, this program will not compile because of the poor syntax.\nThe code button will bring you to a guide on Syntax.\nMissing Semicolons, poor spelling and punctuation errors are quite common; so do not become discouraged.\nJust listen to the compiler\'s warnings to solve them.</string>
+    <string name="title_activity_hello_world_web_view">Sign in</string>
+    <string name="section5">Primitive Data Types are used to make up the foundation of your code. For example, a car is made of basic parts such as tires and a battery. Java Code is also made of basic parts.\nStrings: More than one letter, number, or char; often a sentence or phrase.\nInt: Integer numbers, that are not decimals. Such as 42 or 6.\nDouble: A number with a decimal at the end. Such as 7.56.\nChar: A single character, with single quotes surrounding it.\nFloat: A floating point number, marked with a lowercase \'f\'.\nBoolean: A true or false option, often used with if statements.\n\nHere is an example of the data types being initialized.\n</string>
+    <string name="Section6">For Loops are used to save time in iteration. For example if you have an array of the System of A Down albums, it is easier to print them with a for loop.\nFor loops are made up of an initializer, a stopping point from the last variable, and your choice of a prefix (++i) or postfix (i++) ending.\nThis allows for you to do almost anything with large amounts of data. This loop skips printing before the last album, as the stopping point is subtracted by 1.\nWhile loops are used to run something while it is active. You could use them to confirm input with a scanner for example.\n\nYou can learn more about While loops and For Loops, by clicking the code button.</string>
+</resources>
